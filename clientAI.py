@@ -2,7 +2,7 @@ import socket
 import time 
 import random
 
-
+ 
 class ClientAI:
     def __init__(self, host='127.0.0.1', port=12345):
         self.host = host
@@ -28,6 +28,7 @@ class ClientAI:
 # Create an instance of ClientAI and send data to the server
 client = ClientAI()
 client.send_data()
+
 
 
 
