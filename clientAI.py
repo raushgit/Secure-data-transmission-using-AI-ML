@@ -1,5 +1,5 @@
 import socket
-import time 
+import time
 import random 
 
  
@@ -28,6 +28,7 @@ class ClientAI:
 # Create an instance of ClientAI and send data to the server
 client = ClientAI()
 client.send_data()
+
 
 
 
