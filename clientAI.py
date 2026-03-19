@@ -1,6 +1,6 @@
 import socket
 import time
-import random 
+import random
 
  
 class ClientAI:
